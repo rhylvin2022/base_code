@@ -4,6 +4,7 @@ import 'package:base_code/blocs/sample_bloc/sample_bloc_bloc.dart';
 import 'package:base_code/global/app_colors.dart';
 import 'package:base_code/widgets/base_view.dart';
 import 'package:base_code/widgets/primary_button.dart';
+import 'package:base_code/widgets/vertical_space.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
@@ -50,9 +51,7 @@ class HomePageState extends BaseViewState {
                         context.read<SampleBlocBloc>().add(GetSampleBloc());
                       },
                     ),
-                    SizedBox(
-                      height: MediaQuery.of(context).size.height * 0.03,
-                    ),
+                    VerticalSpace(),
                     PrimaryButton(
                       buttonText:
                           '${AppLocalizations.of(context)!.translate("logout")}',
@@ -62,9 +61,7 @@ class HomePageState extends BaseViewState {
                             .add(AuthenticationLogoutRequested());
                       },
                     ),
-                    SizedBox(
-                      height: MediaQuery.of(context).size.height * 0.03,
-                    ),
+                    VerticalSpace(),
                     setup == ''
                         ? Container()
                         : Text(
@@ -75,9 +72,7 @@ class HomePageState extends BaseViewState {
                                 color: AppColors.primaryColor,
                                 fontFamily: "Satoshi-Bold"),
                           ),
-                    SizedBox(
-                      height: MediaQuery.of(context).size.height * 0.03,
-                    ),
+                    VerticalSpace(),
                     punchLine == ''
                         ? Container()
                         : Text(
