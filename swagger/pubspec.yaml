@@ -8,9 +8,9 @@ dependencies:
   flutter_localizations:
     sdk: flutter
   http_interceptor: ^1.0.2
-  get_it: ^7.2.0
+  get_it: ^8.2.0
   flutter_secure_storage: ^9.2.4
-  rxdart: ^0.27.2
+  rxdart: ^0.28.0
 
 dependency_overrides:
   intl: 0.18.0
