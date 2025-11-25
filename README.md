@@ -52,19 +52,3 @@ Below are the core features and components already implemented in this base code
 This project template is fully prepared and structured based on my own development standards. It includes the architecture, patterns, and setup that I personally use when building Flutter applications. No external guides or references were used in creating this base code.
 
 ---
-
-# Base Code (Assessment Version)
-
-This repository also includes a version of the base code used for an **assessment project** I am completing for a company I aim to work for.
-
-## Purpose
-
-This version demonstrates my development approach, coding style, and architectural structure using my personal base setup.
-
-## Key Features
-
-* Same core functionalities as my primary base code
-* Tailored adjustments depending on the assessment requirements
-* Clean, maintainable, and scalable architecture showcasing my Flutter development capabilities
-
-If you're reviewing this for assessment purposes, this reflects how I build the foundation of my actual production applications.
